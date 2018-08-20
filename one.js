@@ -9,7 +9,7 @@ const regtest = bitcoin.networks.testnet
 const bip65 = require('bip65')
 
 //輸入私鑰，教學用，請勿隨意公開私鑰
-var privateKey = "cNcvQphXWjAJ365Y8Tuhti5a6fCh9ftpR3GScZs5vdidBwQqpxT4";
+var privateKey = "cQZts3AqUD4UkSkNLpgbyYWFfgo67VZA5yi9Dd5UN2wE2Sm96SE6";
 
 //產生公鑰跟私鑰
 const keyPair = bitcoin.ECPair.fromWIF(privateKey,regtest);
