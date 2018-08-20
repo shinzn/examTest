@@ -24,7 +24,7 @@ const txb = new bitcoin.TransactionBuilder(regtest);
 txb.addInput('a5da3c8baa0d65682bef56183fe2881cddc73c5cdcd330266a2ab2864bcea0ff', 0);
 
 //用getnewaddress取得新的位址
-txb.addOutput('2NGPALzjuYj2tRJMSTKRuDJMkHe1NC1dMnv', 25)
+txb.addOutput('2NGPALzjuYj2tRJMSTKRuDJMkHe1NC1dMnv', 12)
 
 //交易簽名
 txb.sign(0, keyPair); //第一個位置的是上一筆交易中的第一個支出，第二個欄位是我們的公鑰與私鑰
